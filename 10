@@ -1,0 +1,25 @@
+programa {
+	funcao inicio() {
+        
+        inteiro numeros[3][5]
+        
+        para(inteiro i = 0; i< 3; i++){
+            para(inteiro c = 0; c < 5; c++){
+                escreva("Digite um número: ")
+                leia(numeros[i][c])
+                limpa()
+            }  
+        }   
+        para(inteiro i = 0; i < 3; i++){ 
+            para(inteiro c = 0; c < 5; c++){
+                se(numeros[i][c] % 2 == 0){         
+                escreva("Nº ", numeros[i][c], "  |  linha: ", i,"  |  coluna: ", c," \n")      
+                
+                }  
+            }
+        }
+        
+        
+        
+	}
+}
